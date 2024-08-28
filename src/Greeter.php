@@ -10,3 +10,9 @@ class Greeter {
 		return "Hello!";
 	}
 }
+
+function addNum(int $a, int $b): int {
+	return $a + $b;
+}
+
+$result = addNum("10",20);

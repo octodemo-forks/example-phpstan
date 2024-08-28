@@ -1,3 +1,12 @@
+parameters:
+    paths:
+        - app/
+        - database/
+        - tests/
+    level: max
+    excludePaths:
+        - ./*/*/FileToBeExcluded.php
+
 services:
     errorFormatter.sarif:
         class: PHPStanSarifErrorFormatter\SarifErrorFormatter

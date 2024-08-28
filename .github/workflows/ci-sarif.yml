@@ -10,6 +10,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: php-actions/composer@v6
       - name: PHPStan Static Analysis
+        continue-on-error: true
         run: vendor/bin/phpstan analyse src/ inc/ --error-format=sarif  > phpstan-results.sarif
       - name: Upload analysis results to GitHub
         uses: github/codeql-action/upload-sarif@v2

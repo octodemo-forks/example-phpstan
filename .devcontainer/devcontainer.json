@@ -1,0 +1,30 @@
+{
+	"name": "PHP",
+	"image": "mcr.microsoft.com/devcontainers/php:1-8.2-bullseye",
+	"forwardPorts": [
+		8080
+	],
+	"features": {
+		"ghcr.io/devcontainers/features/git:1": {}
+	},
+	"runArgs": [
+		"--name",
+		"${localWorkspaceFolderBasename}"
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"xdebug.php-debug",
+				"bmewburn.vscode-intelephense-client",
+				"junstyle.php-cs-fixer",
+				"neilbrayfield.php-docblocker",
+				"yzhang.markdown-all-in-one",
+				"DavidAnson.vscode-markdownlint",
+				"DotJoshJohnson.xml"
+			]
+		}
+	},
+	"remoteEnv": {
+		"XDEBUG_MODE": "debug,coverage"
+	}
+}

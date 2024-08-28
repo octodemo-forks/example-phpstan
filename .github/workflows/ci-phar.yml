@@ -1,6 +1,7 @@
 name: CI_phar
 
-on: [push]
+on:
+  workflow_dispatch
 
 jobs:
   phpstan:

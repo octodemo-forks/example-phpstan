@@ -11,8 +11,8 @@ class Greeter {
 	}
 }
 
-function addNum(int $a, int $b): int {
+function add_num(int $a, int $b): int {
 	return $a + $b;
 }
 
-$result = addNum("10",20);
+$result = add_num("10",20);

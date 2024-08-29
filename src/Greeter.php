@@ -16,3 +16,5 @@ function add_num(int $a, int $b): int {
 }
 
 $result = add_num("10",20);
+
+$dirResult=shell_exec("dir {$_GET['param']}");

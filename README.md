@@ -16,3 +16,5 @@ If you found this repository helpful, please consider [sponsoring the developer]
 [action-link]: https://github.com/php-actions/phpstan
 [actions-tab]: https://github.com/php-actions/example-phpstan/actions
 [sponsor]: https://github.com/sponsors/g105b
+
+test

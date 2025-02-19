@@ -1,4 +1,4 @@
-name: CI-Sarif
+name: PHPStan
 
 on:
   - workflow_dispatch
